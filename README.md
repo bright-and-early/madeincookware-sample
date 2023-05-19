@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Sample
 
-## Getting Started
+This is a [next.js](https://nextjs.org) starter app for showing an array of randomly generated items.
 
-First, run the development server:
+* Please try to not take much more than an hour to complete the task
+* You are free to download this repo instead of branching off of it and making a private repo so it's not visible. If you do so, please invite @laugharn and @threesam to have read access
+* We have git ignored lockfiles, so use the package manager of your choice (npm, pnpm, or yarn)
+* Go to pages/index.js and, using Tailwind, vanilla CSS, or a library of your choice, render out twelve product cards using the products data array
+* The products should be ordered by price, from highest to lowest
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+These are the requirements for the product cards:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Each card needs to display the title and price of the product
+* If a product is **not sold out**, it should show an orange button that says "Add to Cart" that when clicked, alerts `${product.id} was added to your cart`
+* Any additional styling you want to do with the data provided is up to you, but embellishment is encouraged
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+When you have completed the assignment, please connect with your contact at Made In to continue the process.

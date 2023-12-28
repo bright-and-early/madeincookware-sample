@@ -8,7 +8,7 @@ This is a [next.js](https://nextjs.org) starter app for showing an array of rand
 
 These are the requirements for the product cards:
 
-* Go to pages/index.js and, using Tailwind, vanilla CSS, or a library of your choice, render out twelve product cards using the products data array
+* Go to app/page.tsx and, using Tailwind, vanilla CSS, or a library of your choice, render out twelve product cards using the products data array
 * The products should be ordered by price, from highest to lowest
 * Each card needs to display the title and price of the product
 * If a product is **not sold out**, it should show an orange button that says "Add to Cart" that when clicked, alerts `${product.id} was added to your cart`

@@ -98,13 +98,7 @@ const products = [
 ]
 
 function Page() {
-  return <div className="container mx-auto p-5 grid grid-cols-2 lg:grid-cols-4 gap-5">
-    {products.map(product => {
-      return <div key={product.id}>
-        <img className="w-full h-auto" src={product.imageUrl} height={640} width={640} />
-      </div>
-    })}
-  </div>
+  return <div />
 }
 
 export default Page

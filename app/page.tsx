@@ -10,7 +10,7 @@ const products = [
   {
     "id": "eeaa732",
     "description": "Nor disestablish attain instead vivaciously.",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/2131/5111/products/CollectionPages_ECIBundles_Red_640x640.jpg",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2131/5111/files/CookingUtensils-2913_1_1_640x640.jpg",
     "isSoldOut": false,
     "price": 772,
     "title": "Gorgeous Frozen Chair"
@@ -98,7 +98,13 @@ const products = [
 ]
 
 function Page() {
-  return <div />
+  return <div className="container mx-auto p-5 grid grid-cols-2 lg:grid-cols-4 gap-5">
+    {products.map(product => {
+      return <div key={product.id}>
+        <img className="w-full h-auto" src={product.imageUrl} height={640} width={640} />
+      </div>
+    })}
+  </div>
 }
 
 export default Page

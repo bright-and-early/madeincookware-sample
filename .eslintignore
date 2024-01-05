@@ -1,0 +1,8 @@
+.env
+.next/
+.vercel/
+.turbo/
+dist/
+node_modules/
+prisma/migrations/
+bun.lockb

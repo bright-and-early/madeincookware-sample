@@ -1,0 +1,7 @@
+.next
+.env
+.vercel
+dist
+.turbo
+bun.lockb
+node_modules

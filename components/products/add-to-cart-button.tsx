@@ -20,6 +20,10 @@ const AddToCartButton = ({
         className,
       )}
       onClick={() => {
+        if (disabled) {
+          return;
+        }
+
         toast.success(`${productId} was added to your cart`);
       }}
       {...props}
